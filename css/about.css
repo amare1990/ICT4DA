@@ -38,6 +38,21 @@ img {
   justify-content: center; /* Supposed flex-end for desktop */
   padding-right: 150px;
 }
+
+.see-more-speakers {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--grey);
+  border-radius: 8px;
+  margin-top: 24px;
+}
+
+.partner-item-airbnb a {
+  margin-right: -20px;
+}
+
 .little-header-list .list-item a {
   color: #fff;
   font-size: 12px;
@@ -57,7 +72,6 @@ img {
   text-decoration: none;
   color: var(--black);
   font-weight: 100;
-  color: red;
   font-size: 24px;
 }
 
@@ -94,7 +108,8 @@ img {
 }
 
 .section-conference-invitation {
-  background: rgba(0, 0, 0, 0)
+  background: 
+  rgba(0, 0, 0, 0)
     url("/images/background-images/hero-background.png") no-repeat scroll center
     top;
   height: auto;
@@ -172,10 +187,9 @@ img {
 }
 
 .main-program {
-  background: rgba(0, 0, 0, 0) url("/images/background-images/main-program.jpg")
+  background: 
+  rgba(0, 0, 0, 0) url("/images/background-images/main-program.jpg")
     no-repeat scroll center top;
-  /*background-position: center;
-  background-size: cover;*/
   height: 769px;
   width: 95%;
   overflow: auto;
@@ -267,6 +281,25 @@ img {
   background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
 }
 
+.card-photo img {
+  width: 300px;
+  height: 130px;
+}
+
+.footer-container img {
+  color: var(--black);
+  font-weight: 700;
+}
+
+.past-photo img {
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .programs-wrapper .program img {
   color: rgb(255, 255, 255);
   text-align: center;
@@ -330,11 +363,6 @@ img {
   margin-bottom: 50px;
 }
 
-.card-photo img {
-  width: 300px;
-  height: 130px;
-}
-
 .card-photo2 {
   width: 400px;
 }
@@ -363,16 +391,6 @@ img {
 .card-body .speaker-job-description {
   color: var(--black);
   font-weight: 200;
-}
-
-.see-more-speakers {
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid var(--grey);
-  border-radius: 8px;
-  margin-top: 24px;
 }
 
 .see-more-speakers a {
@@ -418,10 +436,6 @@ img {
   align-items: center;
 }
 
-.partner-item-airbnb a {
-  margin-right: -20px;
-}
-
 #airbnb-icon {
   color: #fff;
 }
@@ -440,11 +454,6 @@ img {
   align-items: center;
   justify-content: center;
   gap: 50px;
-}
-
-.footer-container img {
-  color: var(--black);
-  font-weight: 700;
 }
 
 .copywrite-rule {
@@ -491,15 +500,6 @@ img {
 
 .past-photo {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.past-photo img {
-  width: 100%;
-  max-width: 600px;
-  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
