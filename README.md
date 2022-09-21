@@ -21,9 +21,9 @@ This project is a call for papers research conference website. It is a capstone 
 
 ## Demonstration/website address
 
-** The application developed is deployed on github pages. You can see my web application using the follwing github page link **
+** The application developed is deployed on github pages. You can see my web application using the follwing github page link. **
 
-https://amare1990.github.io/ICT4DA/
+  https://amare1990.github.io/ICT4DA/
 
 
 ## Authors
@@ -31,6 +31,7 @@ https://amare1990.github.io/ICT4DA/
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/amare1990)
+- email address: [@emailhandle](amaremek@gmail.com)
 
 ## 🤝 Contributing
 
@@ -44,7 +45,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Many thanks to the designer  for Creative Commons license of the design https://creativecommons.org/licenses/by-nc/4.0/
+- Many thanks to the designer  for Creative Commons license of the design having a website address, https://creativecommons.org/licenses/by-nc/4.0/
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
