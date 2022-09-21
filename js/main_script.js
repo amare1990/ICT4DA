@@ -12,15 +12,64 @@ let speakers = [
     title: 'Director of Art centre Nabi and a board member of CC Korea',
     guide_bar: '<div class = "guide-bar guide-bar-speakers"> </div>',
     job_description: 'As the main venue for new media art production in Korea, nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.'
+  },
+  {
+    photo : './images/speakers/speaker02.png',
+    name: 'Kiliniam Kohn',
+    title: '',
+    guide_bar: '<div class = "guide-bar guide-bar-speakers"> </div>',
+    job_description: 'As the main venue for new media art production in Korea, nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.'
+  },
+  {
+    photo : './images/speakers/speaker05.png',
+    name: 'Lila Tritikov',
+    title: 'Executive director of the Wikipedia Foundation',
+    guide_bar: '<div class = "guide-bar guide-bar-speakers"> </div>',
+    job_description: 'As the main venue for new media art production in Korea, nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.'
+  },
+
+  {
+    photo : './images/speakers/speaker04.png',
+    name: 'Julia Leda',
+    title: 'President of Young Pirates of Europe',
+    guide_bar: '<div class = "guide-bar guide-bar-speakers"> </div>',
+    job_description: 'As the main venue for new media art production in Korea, nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.'
+  },
+  {
+    photo : './images/speakers/speaker3.png',
+    name: 'Reyan Merkley',
+    title: 'Chief Exective of Creative Commons, ex COO of Mozilla Foundation',
+    guide_bar: '<div class = "guide-bar guide-bar-speakers"> </div>',
+    job_description: 'As the main venue for new media art production in Korea, nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.'
   }
 ]
 
-const speakersContainer = document.querySelector('.speakers-container');
+//const speakersContainer = document.querySelector('.speakers-container');
 //const sectionDiv = document.createElement('div');
 //sectionDiv.className = "speakers-container";
+const cardContainer = document.querySelector('.card-container');
+//const btnMore = document.querySelector('.see-more-speakers');
 
+let numSpeakers;
+const mediaQuery = window.matchMedia("(max-width: 767.98px)");
+if(mediaQuery.matches) {
+  numSpeakers = 2; 
+}
+else{
+  numSpeakers = speakers.length;
+}
 
-for(let i = 0; i < speakers.length; i++){
+/*
+let total;
+btnMore.addEventListener('click', function entireSpeaker(){
+  total = speakers.length;
+});
+
+numSpeakers = entireSpeaker(); */
+
+console.log('Total speakers = ', numSpeakers);
+
+for(let i = 0; i < numSpeakers; i++){
   const speakerCard = document.createElement('div');
   speakerCard.className = `card card${i+1}`;
   //console.log(speakerCard);
@@ -35,7 +84,7 @@ for(let i = 0; i < speakers.length; i++){
       <p class = "speaker-job-description"> ${speakers[i].job_description} </p>
     </div>
     </div>`;
-    speakersContainer.append(speakerCard);
+    cardContainer.append(speakerCard);
 }
 
 //hamburger button Action
