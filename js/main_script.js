@@ -48,7 +48,6 @@ let speakers = [
 //const sectionDiv = document.createElement('div');
 //sectionDiv.className = "speakers-container";
 const cardContainer = document.querySelector('.card-container');
-//const btnMore = document.querySelector('.see-more-speakers');
 
 let numSpeakers;
 const mediaQuery = window.matchMedia("(max-width: 767.98px)");
@@ -58,14 +57,6 @@ if(mediaQuery.matches) {
 else{
   numSpeakers = speakers.length;
 }
-
-/*
-let total;
-btnMore.addEventListener('click', function entireSpeaker(){
-  total = speakers.length;
-});
-
-numSpeakers = entireSpeaker(); */
 
 console.log('Total speakers = ', numSpeakers);
 
@@ -86,6 +77,29 @@ for(let i = 0; i < numSpeakers; i++){
     </div>`;
     cardContainer.append(speakerCard);
 }
+
+
+const btnMore = document.querySelector('.see-more-speakers');
+btnMore.addEventListener('click', function(){
+  for(let i = 2; i < speakers.length; i++){
+    const speakerCard = document.createElement('div');
+    speakerCard.className = `card card${i+1}`;
+    //console.log(speakerCard);
+    speakerCard.innerHTML =  `
+      <div class="card-photo card-photo${i+1}">
+        <img src="${speakers[i].photo}" alt="">
+      </div>
+      <div class="card-body">
+        <h3>${speakers[i].name}</h3>
+        <p class = "speaker-title"> ${speakers[i].title} </p>
+        <div class = "guide-bar-speakers"></div>
+        <p class = "speaker-job-description"> ${speakers[i].job_description} </p>
+      </div>
+      </div>`;
+      cardContainer.append(speakerCard);
+  }
+  btnMore.style.display = "none";
+});
 
 //hamburger button Action
 
