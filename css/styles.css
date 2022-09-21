@@ -22,6 +22,7 @@ body {
 
 .wrapper {
   min-width: 375px;
+  background-color: #f9f9f9f9;
 }
 
 img {
@@ -127,6 +128,7 @@ img {
   height: 160px;
   text-align: justify;
   word-break: break-all;
+  border: 1px solid #fff;
 }
 
 .date-and-place {
@@ -181,6 +183,13 @@ img {
   flex-direction: column;
   justify-content: flex-start;
   background-color: rgb(39, 42, 50);
+}
+
+.past-global-summit {
+  background-color: #fff;
+  background-image: none;
+  height: auto;
+
 }
 
 /*
@@ -274,6 +283,10 @@ img {
  line-height: 1.5em;
 }
 
+.section-speakers {
+  background-color: #fff;
+}
+
 .join-btn-div {
   margin-top: 20px;
   color: rgb(255, 255, 255);
@@ -308,7 +321,7 @@ img {
 }
 
 .card-photo2 {
-  width: 400px;
+  width: 450px;
 }
 
 .card-body {
@@ -359,7 +372,7 @@ img {
 
 .section-partners {
   background-color: var(--black);
-  height: 180px;
+  height: auto;
   border-bottom-left-radius: 8px;
   margin-bottom: 80px;
 }
@@ -376,12 +389,26 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .partner-item a {
   color: #fff;
   padding-left: 20px;
   font-size: 24px;
+}
+
+.partner-item-airbnb {
+  display: flex;
+  align-items: center;
+}
+
+.partner-item-airbnb a {
+  margin-right: -20px;
+}
+
+#airbnb-icon {
+  color: #fff;
 }
 
 .footer {
