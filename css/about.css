@@ -122,7 +122,7 @@ img {
 .section-conference-invitation {
   background:
   
-    rgba(0, 0, 0, 0)
+    rba(0, 0, 0, 0)
     url("/images/background-images/hero-background.png") no-repeat scroll center
     top;
   height: auto;
@@ -202,7 +202,7 @@ img {
 .main-program {
   background:
   
-    rgba(0, 0, 0, 0) url("/images/background-images/main-program.jpg")
+    gba(0, 0, 0, 0) url("/images/background-images/main-program.jpg")
     no-repeat scroll center top;
   height: 769px;
   width: 95%;
