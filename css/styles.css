@@ -287,6 +287,13 @@ img {
   background-color: #fff;
 }
 
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+ }
+
 .join-btn-div {
   margin-top: 20px;
   color: rgb(255, 255, 255);
@@ -316,15 +323,16 @@ img {
 }
 
 .card-photo img {
-  width: 300px;
-  height: 130px;
+  width: 200px;
+  height: 100px;
 }
 
 .card-photo2 {
-  width: 450px;
+  width: 200px;
 }
 
 .card-body {
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -507,6 +515,19 @@ img {
  }
 
  .menu-logo-mobile {
+  display: none;
+ }
+
+ .card-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+ }
+
+ .see-more-speakers {
   display: none;
  }
   
