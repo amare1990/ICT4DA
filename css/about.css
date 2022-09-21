@@ -122,9 +122,8 @@ img {
 .section-conference-invitation {
   background:
   
-    rba(0, 0, 0, 0)
-    url("/images/background-images/hero-background.png") no-repeat scroll center
-    top;
+    rgba(0, 0, 0, 0)
+    url("/images/background-images/hero-background.png") no-repeat scroll center top;
   height: auto;
   width: 100%;
   padding-bottom: 50px;
@@ -202,8 +201,7 @@ img {
 .main-program {
   background:
   
-    gba(0, 0, 0, 0) url("/images/background-images/main-program.jpg")
-    no-repeat scroll center top;
+    rgba(0, 0, 0, 0) url("/images/background-images/main-program.jpg") no-repeat scroll center top;
   height: 769px;
   width: 95%;
   overflow: auto;
