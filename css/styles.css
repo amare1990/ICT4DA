@@ -39,6 +39,23 @@ img {
   justify-content: center; /* Supposed flex-end for desktop */
   padding-right: 150px;
 }
+
+.see-more-speakers a {
+  color: var(--black);
+  font-weight: 400;
+  padding-right: 7px;
+}
+
+.partner-item a {
+  color: #fff;
+  padding-left: 20px;
+  font-size: 24px;
+}
+
+.partner-item-airbnb a {
+  margin-right: -20px;
+}
+
 .little-header-list .list-item a {
   color: #fff;
   font-size: 12px;
@@ -58,7 +75,6 @@ img {
   text-decoration: none;
   color: var(--black);
   font-weight: 100;
-  color: red;
   font-size: 24px;
 }
 
@@ -95,7 +111,8 @@ img {
 }
 
 .section-conference-invitation {
-  background: rgba(0, 0, 0, 0)
+  background: 
+    rgba(0, 0, 0, 0)
     url("/images/background-images/hero-background.png") no-repeat scroll center
     top;
   height: auto;
@@ -171,10 +188,9 @@ img {
 }
 
 .main-program {
-  background: rgba(0, 0, 0, 0) url("/images/background-images/main-program.jpg")
+  background: 
+  rgba(0, 0, 0, 0) url("/images/background-images/main-program.jpg")
     no-repeat scroll center top;
-  /*background-position: center;
-  background-size: cover;*/
   height: 769px;
   width: 95%;
   overflow: auto;
@@ -247,6 +263,16 @@ img {
   display: flex;
   align-items: center;
   background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+}
+
+.card-photo img {
+  width: 200px;
+  height: 100px;
+}
+
+.footer-container img {
+  color: var(--black);
+  font-weight: 700;
 }
 
 .programs-wrapper .program img {
@@ -324,11 +350,6 @@ img {
   margin-bottom: 50px;
 }
 
-.card-photo img {
-  width: 200px;
-  height: 100px;
-}
-
 .card-photo2 {
   width: 200px;
 }
@@ -370,12 +391,6 @@ img {
   margin-top: 24px;
 }
 
-.see-more-speakers a {
-  color: var(--black);
-  font-weight: 400;
-  padding-right: 7px;
-}
-
 .see-more-speakers a .fa-chevron-down {
   color: #ec5242;
 }
@@ -402,19 +417,9 @@ img {
   flex-wrap: wrap;
 }
 
-.partner-item a {
-  color: #fff;
-  padding-left: 20px;
-  font-size: 24px;
-}
-
 .partner-item-airbnb {
   display: flex;
   align-items: center;
-}
-
-.partner-item-airbnb a {
-  margin-right: -20px;
 }
 
 #airbnb-icon {
@@ -435,11 +440,6 @@ img {
   align-items: center;
   justify-content: center;
   gap: 50px;
-}
-
-.footer-container img {
-  color: var(--black);
-  font-weight: 700;
 }
 
 .copywrite-rule {
