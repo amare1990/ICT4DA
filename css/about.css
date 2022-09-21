@@ -53,6 +53,18 @@ img {
   margin-right: -20px;
 }
 
+.see-more-speakers a {
+  color: var(--black);
+  font-weight: 400;
+  padding-right: 7px;
+}
+
+.partner-item a {
+  color: #fff;
+  padding-left: 20px;
+  font-size: 24px;
+}
+
 .little-header-list .list-item a {
   color: #fff;
   font-size: 12px;
@@ -109,6 +121,7 @@ img {
 
 .section-conference-invitation {
   background: 
+
   rgba(0, 0, 0, 0)
     url("/images/background-images/hero-background.png") no-repeat scroll center
     top;
@@ -188,6 +201,7 @@ img {
 
 .main-program {
   background: 
+
   rgba(0, 0, 0, 0) url("/images/background-images/main-program.jpg")
     no-repeat scroll center top;
   height: 769px;
@@ -393,12 +407,6 @@ img {
   font-weight: 200;
 }
 
-.see-more-speakers a {
-  color: var(--black);
-  font-weight: 400;
-  padding-right: 7px;
-}
-
 .see-more-speakers a .fa-chevron-down {
   color: #ec5242;
 }
@@ -423,12 +431,6 @@ img {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-}
-
-.partner-item a {
-  color: #fff;
-  padding-left: 20px;
-  font-size: 24px;
 }
 
 .partner-item-airbnb {
