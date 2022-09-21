@@ -120,10 +120,10 @@ img {
 }
 
 .section-conference-invitation {
-  background:
-  
-    rgba(0, 0, 0, 0)
-    url("/images/background-images/hero-background.png") no-repeat scroll center top;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("/images/background-images/hero-background.png");
+  background-repeat: no-repeat;
+  background-position: center top;
   height: auto;
   width: 100%;
   padding-bottom: 50px;
@@ -199,9 +199,10 @@ img {
 }
 
 .main-program {
-  background:
-  
-    rgba(0, 0, 0, 0) url("/images/background-images/main-program.jpg") no-repeat scroll center top;
+  background-color: gba(0, 0, 0, 0);
+  background-image: url("/images/background-images/main-program.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
   height: 769px;
   width: 95%;
   overflow: auto;
