@@ -387,7 +387,7 @@ img {
 }
 
 .partners-container {
-  height: inherit;
+  height: auto;
 }
 
 .partners-section-title {
