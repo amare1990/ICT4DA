@@ -199,7 +199,6 @@ img {
 }
 
 .main-program {
-  background-color: gba(0, 0, 0, 0);
   background-image: url("/images/background-images/main-program.jpg");
   background-repeat: no-repeat;
   background-position: center top;
