@@ -139,11 +139,9 @@ img {
   align-items: center;
 }
 
-.conference-description-container h1 {
+.conference-name-about {
   min-width: 320px;
-  background-image: linear-gradient(to right, var(--brown), yellow);
-  background-clip: text;
-  color: transparent;
+  color: #ec5242;
   font-weight: bold;
 }
 
