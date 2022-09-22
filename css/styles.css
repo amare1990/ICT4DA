@@ -36,8 +36,8 @@ img {
   background-color: var(--black);
   display: flex;
   align-items: center;
-  justify-content: center; /* Supposed flex-end for desktop */
-  padding-right: 150px;
+  justify-content: flex-end; /* Supposed flex-end for desktop */
+  padding-left: 10px;
 }
 
 .see-more-speakers a {
@@ -132,12 +132,12 @@ img {
 }
 
 .conference-description-container {
-  width: 90%;
+  width: 80%;
+  margin: 0 auto;
   padding-top: 60px;
   text-align: left;
   height: auto;
   overflow: auto;
-  margin: 0 auto;
 }
 
 .conference-title {
@@ -157,12 +157,10 @@ img {
 }
 
 .conference-description {
-  margin: 17px 0.75em 0;
-  width: calc(100% - 2.5em);
+  height: auto;
   padding: 1em 0.5em;
   line-height: 150%;
   font-size: 13px;
-  height: 160px;
   text-align: left;
   word-break: break-all;
   border: 1px solid #fff;
@@ -173,7 +171,7 @@ img {
   width: 100%;
   font-size: 1.125em;
   margin: 0;
-  height: 95px;
+  height: auto;
   padding-top: 40px;
   display: flex;
   flex-direction: column;
@@ -212,7 +210,7 @@ img {
   border-image: url("/images/background-images/main-program.jpg");
   background-repeat: no-repeat;
   background-position: center top;
-  height: 769px;
+  height: auto;
   width: 95%;
   overflow: auto;
   padding-top: 60px;
@@ -323,6 +321,7 @@ img {
 
 .section-speakers {
   background-color: #fff;
+  height: auto;
 }
 
 .card-container {
@@ -453,13 +452,24 @@ img {
   gap: 50px;
 }
 
+.footer-container a {
+  color: #272a31;
+  font-weight: bold;
+  font-size: 8px;
+}
+
 .copywrite-rule {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 16px;
+  gap: 16px;;
 }
 
+.copywrite-rule p {
+  color: #272a31;
+  font-weight: bold;
+  font-size: 8px;
+}
 .close-icon {
   display: none;
 }
@@ -475,14 +485,27 @@ img {
   font-size: 36px;
 }
 
+.menu-logo-mobile,
+.header1 {
+  display: none;
+}
+
 /* Mediaquery starts here  */
 @media screen and (min-width: 768px) {
   .menu-bar {
     display: none;
   }
+  
+  .header1 {
+    display: block;
+    width: 100%;
+    background-color: #272a31;
+  }
 
   .little-header-list {
     justify-content: flex-end;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .header2 {
@@ -491,27 +514,27 @@ img {
 
   .navbar {
     height: 60px;
-    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
-    margin-left: 80px;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .menu {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 10px;
     border: none;
     background-color: unset;
   }
 
   .menu-item {
-    padding-right: 10px;
+    padding-left: 10px;
     border-bottom: none;
     width: fit-content;
   }

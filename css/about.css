@@ -94,6 +94,17 @@ img {
   font-size: 24px;
 }
 
+#about-link {
+  color: #ec5242;
+}
+
+#cc-campaign-link {
+  color: #ec5242;
+  font-weight: 500;
+  border: 2px solid #ec5242;
+  padding: 5px 5px;
+}
+
 .menu-bar-container {
   display: flex;
   align-items: center;
@@ -245,6 +256,7 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
   border-top: 1px solid #d3d3d3;
 }
@@ -532,7 +544,16 @@ img {
     display: none;
   }
 
+  .header1 {
+    display: block;
+    width: 100%;
+    background-color: #272a31;
+  }
+
   .little-header-list {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
     justify-content: flex-end;
   }
 
@@ -556,12 +577,13 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-end;
     border: none;
     background-color: unset;
   }
 
   .menu-item {
-    padding-right: 10px;
+    padding-left: 10px;
     border-bottom: none;
     width: fit-content;
   }
