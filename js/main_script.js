@@ -78,7 +78,7 @@ for(let i = 0; i < numSpeakers; i++){
     cardContainer.append(speakerCard);
 }
 
-
+const footerSection = document.querySelector('.footer ');
 const btnMore = document.querySelector('.see-more-speakers');
 btnMore.addEventListener('click', function(){
   for(let i = 2; i < speakers.length; i++){
@@ -97,6 +97,7 @@ btnMore.addEventListener('click', function(){
       </div>
       </div>`;
       cardContainer.append(speakerCard);
+      footerSection.style.display = "block";
   }
   btnMore.style.display = "none";
 });
