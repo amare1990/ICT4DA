@@ -75,7 +75,7 @@ img {
   text-decoration: none;
   color: var(--black);
   font-weight: 500;
-  font-size: 12px;
+  font-size: 24px;
 }
 
 #about-link {
@@ -501,13 +501,13 @@ img {
   }
 
   .menu-item {
-    padding: 0;
+    padding-right: 10px;
     border-bottom: none;
     width: fit-content;
   }
 
   .menu-item-link {
-    font-size: 14px;
+    font-size: 10px;
     color: var(--black);
   }
 
