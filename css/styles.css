@@ -148,9 +148,11 @@ img {
 
 .conference-title {
   min-width: 320px;
+  background-image: linear-gradient(to right, var(--brown), yellow);
+  background-clip: text;
+  color: transparent;
   font-weight: bold;
   font-size: 36px;
-  color: #ec5242;
 }
 
 .conference-title-small {
