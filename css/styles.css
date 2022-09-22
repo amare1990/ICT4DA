@@ -134,18 +134,26 @@ img {
 .conference-description-container {
   width: 90%;
   padding-top: 60px;
-  text-align: center;
+  text-align: left;
   height: auto;
   overflow: auto;
   margin: 0 auto;
 }
 
-.conference-description-container h1 {
+.conference-title {
   min-width: 320px;
   background-image: linear-gradient(to right, var(--brown), yellow);
   background-clip: text;
   color: transparent;
   font-weight: bold;
+  font-size: 36px;
+}
+
+.conference-title-small {
+  background: unset;
+  color: #ec5242;
+  margin-bottom: 6px;
+  font-size: 24px;
 }
 
 .conference-description {
@@ -155,13 +163,13 @@ img {
   line-height: 150%;
   font-size: 13px;
   height: 160px;
-  text-align: justify;
+  text-align: left;
   word-break: break-all;
   border: 1px solid #fff;
 }
 
 .date-and-place {
-  text-align: center;
+  text-align: left;
   width: 100%;
   font-size: 1.125em;
   margin: 0;
@@ -171,21 +179,23 @@ img {
   flex-direction: column;
 }
 
-.date-and-place span .date {
-  font-size: 15px;
-  font-weight: 700;
+.date {
+  font-size: 24px;
+  color: #272a31;
+  font-weight: bolder;
   width: 90%;
   display: inline-block;
-  text-align: center;
+  text-align: left;
   margin-bottom: 4px;
   letter-spacing: 0;
+  text-align: left;
 }
 
-.date-and-place span .place {
+.place {
   font-size: 15px;
   width: 90%;
   display: inline-block;
-  text-align: center;
+  text-align: left;
 }
 
 .section-wrapper {
