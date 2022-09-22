@@ -139,7 +139,7 @@ img {
   align-items: center;
 }
 
-.conference-name-about {
+.conference-title-about {
   min-width: 320px;
   color: #ec5242;
   font-weight: bold;
@@ -439,7 +439,7 @@ img {
 }
 
 .footer {
-  background-color: #f9f9f9f9;
+  background-color: #272a31;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   height: 180px;
@@ -452,13 +452,26 @@ img {
   align-items: center;
   justify-content: center;
   gap: 50px;
+  height: 100%;
+}
+
+.footer-container a {
+  color: #d3d3d3;
+  font-weight: bold;
+  font-size: 8px;
 }
 
 .copywrite-rule {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 16px;
+  gap: 16px;;
+}
+
+.copywrite-rule p {
+  color: #d3d3d3;
+  font-weight: bold;
+  font-size: 8px;
 }
 
 .close-icon {
@@ -576,6 +589,10 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  #partner-id {
+    display:  none;
   }
 } /* End of media query for min-width: 768px; */
 
