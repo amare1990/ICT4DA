@@ -35,7 +35,8 @@ img {
   background-color: var(--black);
   display: flex;
   align-items: center;
-  justify-content: center;}
+  justify-content: center;
+}
 
 .see-more-speakers {
   height: 40px;
@@ -92,7 +93,7 @@ img {
 
 .header2 {
   width: 80%;
-  margin:  0 auto;
+  margin: 0 auto;
 }
 
 .menu-bar {
@@ -163,7 +164,7 @@ img {
   text-align: center;
 }
 
-.conference-description-container {  
+.conference-description-container {
   width: 80%;
   height: auto;
   margin: 0 auto;
