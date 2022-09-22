@@ -56,6 +56,12 @@ img {
   margin-right: -20px;
 }
 
+.footer-container a {
+  color: #272a31;
+  font-weight: bold;
+  font-size: 8px;
+}
+
 .little-header-list .list-item a {
   color: #fff;
   font-size: 12px;
@@ -186,7 +192,6 @@ img {
   text-align: left;
   margin-bottom: 4px;
   letter-spacing: 0;
-  text-align: left;
 }
 
 .place {
@@ -305,6 +310,12 @@ img {
   padding-left: 7px;
   line-height: 52px;
   font-weight: 700;
+}
+
+.copywrite-rule p {
+  color: #272a31;
+  font-weight: bold;
+  font-size: 8px;
 }
 
 .programs-wrapper .program p {
@@ -452,24 +463,13 @@ img {
   gap: 50px;
 }
 
-.footer-container a {
-  color: #272a31;
-  font-weight: bold;
-  font-size: 8px;
-}
-
 .copywrite-rule {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 16px;;
+  gap: 16px;
 }
 
-.copywrite-rule p {
-  color: #272a31;
-  font-weight: bold;
-  font-size: 8px;
-}
 .close-icon {
   display: none;
 }
