@@ -287,7 +287,6 @@ img {
   width: 90px;
 }
 
-
 .footer-container img {
   color: var(--black);
   font-weight: 700;
@@ -575,7 +574,6 @@ img {
     justify-content: flex-start;
     align-self: flex-start;
   }
-
 
   .card-container {
     display: flex;
