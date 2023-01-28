@@ -55,10 +55,10 @@ if(mediaQuery.matches) {
   numSpeakers = 2; 
 }
 else{
-  numSpeakers = speakers.length;
+  numSpeakers = speakers.length; //numSpeakers = 6- the total length of the spakers array
 }
 
-console.log('Total speakers = ', numSpeakers);
+//console.log('Total speakers = ', numSpeakers);
 
 for(let i = 0; i < numSpeakers; i++){
   const speakerCard = document.createElement('div');
