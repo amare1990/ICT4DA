@@ -401,6 +401,7 @@ img {
 .card-body .speaker-job-description {
   color: var(--black);
   font-weight: 200;
+  text-align: justify;
 }
 
 .see-more-speakers {
