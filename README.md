@@ -19,7 +19,7 @@ This project is a call for papers research conference website. It is a capstone 
 
 ## Demonstration/website address
 
-[Demo]( https://amare1990.github.io/ICT4DA/)
+[Website]( https://sprightly-cucurucho-a7f5d4.netlify.app/)
 
 ## How to use this project
 
