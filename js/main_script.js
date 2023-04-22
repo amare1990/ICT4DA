@@ -44,9 +44,6 @@ const speakers = [
   },
 ];
 
-// const speakersContainer = document.querySelector('.speakers-container');
-// const sectionDiv = document.createElement('div');
-// sectionDiv.className = "speakers-container";
 const cardContainer = document.querySelector('.card-container');
 
 let numSpeakers;
@@ -57,12 +54,9 @@ if (mediaQuery.matches) {
   numSpeakers = speakers.length; // numSpeakers = 6- the total length of the spakers array
 }
 
-// console.log('Total speakers = ', numSpeakers);
-
 for (let i = 0; i < numSpeakers; i += 1) {
   const speakerCard = document.createElement('div');
   speakerCard.className = `card card${i + 1}`;
-  // console.log(speakerCard);
   speakerCard.innerHTML = `
     <div class="card-photo card-photo${i + 1}">
       <img src="${speakers[i].photo}" alt="">
@@ -110,14 +104,42 @@ const conf = document.querySelector('.conference-description-container');
 const programSection = document.querySelector('.main-program');
 const speakerSection = document.querySelector('.section-speakers');
 
+const programsLinkMobile = document.querySelector('.programs-mobile');
+const speakersLinkMobile = document.querySelector('.speakers-mobile');
+
 hamburger.addEventListener('click', () => {
   hamburger.style.display = 'none';
   closeIcon.style.display = 'block';
   programSection.style.display = 'none';
   speakerSection.style.display = 'none';
   conf.style.display = 'none';
-  // menuMobile.style.display = "block";
   navBar.style.display = 'block';
+});
+
+programsLinkMobile.addEventListener('click', () => {
+  navBar.style.display = 'none';
+  hamburger.style.display = 'block';
+  closeIcon.style.display = 'none';
+  programSection.style.display = 'block';
+  speakerSection.style.display = 'block';
+  conf.style.display = 'block';
+  window.scroll({
+    top: 2000,
+    behavior: 'smooth',
+  });
+});
+
+speakersLinkMobile.addEventListener('click', () => {
+  navBar.style.display = 'none';
+  hamburger.style.display = 'block';
+  closeIcon.style.display = 'none';
+  programSection.style.display = 'block';
+  speakerSection.style.display = 'block';
+  conf.style.display = 'block';
+  window.scroll({
+    top: 3000,
+    behavior: 'smooth',
+  });
 });
 
 closeIcon.addEventListener('click', () => {
